@@ -19,6 +19,6 @@ print("I am 'learning' Python.") #works the other way too
 print("I am "learning" Python.") #error 
 
 name = input("enter your name: ")
-print("hello " + name)               #concatenation : joining 2 or more strings 
+print("hello " + name)               #concatenation : joining 2 or more strings using "+"
 
 print("hello " + "Roshan.R")  #concatenation 
