@@ -17,3 +17,8 @@ print(f"My name is {name}\nI'm {age} years old")
 print('I am "learning" Python.') #use of both the quotes 
 print("I am 'learning' Python.") #works the other way too
 print("I am "learning" Python.") #error 
+
+name = input("enter your name: ")
+print("hello " + name)               #concatenation : joining 2 or more strings 
+
+print("hello " + "Roshan.R")  #concatenation 
