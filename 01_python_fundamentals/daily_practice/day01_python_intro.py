@@ -15,4 +15,5 @@ name = input("Enter your name: ")
 print(f"My name is {name}\nI'm {age} years old")
 
 print('I am "learning" Python.') #use of both the quotes 
+print("I am 'learning' Python.") #works the other way too
 print("I am "learning" Python.") #error 
