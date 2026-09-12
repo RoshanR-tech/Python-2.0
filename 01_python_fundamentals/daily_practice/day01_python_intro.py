@@ -1,4 +1,4 @@
-name = input("Enter your name: ")
+name = input("Enter your name: ")  #\n for a new line 
 print(f"My name is {name}\nI'm learning Python\nMy goal is to be a Software engineer ")
 
 #Exp 1
