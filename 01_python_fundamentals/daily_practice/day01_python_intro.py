@@ -1,5 +1,5 @@
-name = input("Enter your name: ")  #\n for a new line 
-print(f"My name is {name}\nI'm learning Python\nMy goal is to be a Software engineer ")
+name = input("Enter your name: ") 
+print(f"My name is {name}\nI'm learning Python\nMy goal is to be a Software engineer ") #\n for a new line 
 
 #Exp 1
 age = int(input("Enter your age: "))
