@@ -22,3 +22,11 @@ height = 5.10
 age = 20 
 print(f"my name is {name}\nI'm {height:.2f}\nAnd my age is{age}") #.2f to print upto 2 decimal points or it will print 5.1
 # to use .2f , f-string in print statement is manditory 
+
+age = 20
+is_adult = age >= 18
+
+if is_adult:
+    print("You can watch the movie")
+else:
+    print("You cannot watch the movie") #use of boolean data type 
