@@ -16,3 +16,8 @@ print(7 > 3)
 print(4 < 2)
 print(5 == 5)
 print(8 != 8)  #only prints true or false (boolean)
+
+
+age = int(input("Enter your age: "))
+if age >= 18:
+    print(f"you are {age} years old")
