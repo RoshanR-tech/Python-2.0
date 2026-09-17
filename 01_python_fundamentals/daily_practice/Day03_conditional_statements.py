@@ -21,3 +21,19 @@ print(8 != 8)  #only prints true or false (boolean)
 age = int(input("Enter your age: "))
 if age >= 18:
     print(f"you are {age} years old")
+
+
+num = int(input("Enter a number: "))
+if num > 0 :
+    print("Number is positive.")
+else :
+    print("Number is not positive")
+
+
+num = int(input("Enter a number: "))
+if num > 0 :
+    print("Positive.")
+elif num < 0 :
+    print("Negative")
+else :
+    print("zero")
