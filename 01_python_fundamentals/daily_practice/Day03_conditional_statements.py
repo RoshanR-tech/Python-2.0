@@ -73,3 +73,11 @@ elif marks >= 75 and marks <= 100 :
     print("A Grade")
 else :
     print("invalid")
+
+
+age = int(input("Enter your age: "))
+marks = int(input("Enter your marks: "))
+if age >= 18 and marks >= 50 :
+    print("Eligible")
+else :
+    print("Not eligible")
