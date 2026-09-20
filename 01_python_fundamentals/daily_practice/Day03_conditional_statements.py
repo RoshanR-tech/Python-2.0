@@ -99,3 +99,10 @@ if username == login_username and password == login_password :
     print("Login successful")
 else :
     print("Invalid credentials")
+
+
+num = int(input("Enter a number: "))
+if num == 0 :
+    print("Zero")
+else :
+    print("Non Zero")
