@@ -50,6 +50,15 @@ else :
     print("You are under aged.")
     
 
-
+marks = int(input("Enter your marks: "))
+if marks >= 40 :
+    assignment = input("completed assignment ?: ")
+    if assignment == 'yes':
+        print("you are eligible for exam: ")
+    else :
+        print("you are not eligible")
+else :
+    print("you are not eligible")
+    
     
     
