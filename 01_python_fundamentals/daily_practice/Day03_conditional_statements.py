@@ -106,3 +106,9 @@ if num == 0 :
     print("Zero")
 else :
     print("Non Zero")
+
+
+age = int(input("Enter your age: "))
+is_student = True 
+if age < 18 or is_student :
+    print("Discount Avaliable.")
