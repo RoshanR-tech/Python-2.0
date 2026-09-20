@@ -61,4 +61,15 @@ else :
     print("you are not eligible")
     
     
-    
+
+marks = int(input("Enter your marks: "))
+if marks >= 0 and marks < 40 :
+    print("Fail")
+elif marks >= 40 and marks < 50 :
+    print("C Grade")
+elif marks >= 50 and marks < 75 :
+    print("B Grade")
+elif marks >= 75 and marks <= 100 :
+    print("A Grade")
+else :
+    print("invalid")
