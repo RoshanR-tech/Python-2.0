@@ -38,3 +38,15 @@ elif num < 0 :
 else :
     print("zero")   #Basic conditions 
     
+
+age = int(input("Enter your age: "))
+has_id = input("Do you have an ID: ")
+if age >= 18 :
+    if has_id == "yes":
+        print("You can enter.")
+    else :
+        print("ID required.")
+else :
+    print("You are under aged.")
+    
+    
