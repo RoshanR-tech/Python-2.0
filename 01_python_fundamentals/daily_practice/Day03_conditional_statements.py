@@ -89,3 +89,13 @@ if age >= 18 or marks >= 50 :
     print("Eligible")
 else :
     print("Not eligible")    #OR operator
+
+
+login_username = "Roshan.R"
+login_password = "Hello@123"
+username = input("Enter your username: ")
+password = input("Enter your password: ")
+if username == login_username and password == login_password :
+    print("Login successful")
+else :
+    print("Invalid credentials")
