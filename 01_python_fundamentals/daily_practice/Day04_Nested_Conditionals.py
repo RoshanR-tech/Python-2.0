@@ -31,5 +31,7 @@ if user_name == un :
     password = input("Enter your Password: ")
     if password == up :
         print("Login successful")
+    else :
+        print("Wrong password")
 else :
-    print("Invalid credentials")
+    print("User name does not exist")
