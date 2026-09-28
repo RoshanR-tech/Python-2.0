@@ -35,3 +35,19 @@ if user_name == un :
         print("Wrong password")
 else :
     print("User name does not exist")
+
+
+marks = int(input("Enter your score: "))
+if marks >= 0 and marks <= 100:
+    if marks>=0 and marks<40:
+        print("Fail")
+    if marks>=40 and marks<60 :
+        print("D grade")
+    elif marks>= 60 and marks<75:
+        print("c grade")
+    elif marks>= 75 and marks <90:
+        print("B grade")
+    elif marks >= 90 and marks<=100 :
+        print("A grade")
+else :
+    print("Invalid")
