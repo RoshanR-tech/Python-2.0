@@ -35,3 +35,7 @@ for i in range(2,21,2):
 for i in range(1,71):
     if i % 7 == 0:
         print(i)
+
+
+for i in range (1,11):
+    print(i*i)   #square of numbers from 1 to 10   
