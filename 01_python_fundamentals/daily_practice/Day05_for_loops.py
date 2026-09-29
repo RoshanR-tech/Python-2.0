@@ -13,3 +13,11 @@ for i in range (1,11):
 
 for i in range (2,11,2):
     print(i)   #Even numbers from 1 to 10 with step function
+
+
+for i in range (10,0,-1):
+    print(i)  #Reverse counting from 10 to 1
+
+
+for i in range (10,0,-1):
+    print(i, end=" ") #Reverse counting from 10 to 1 in a single line with space in between
