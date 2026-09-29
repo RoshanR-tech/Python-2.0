@@ -52,3 +52,8 @@ for i in range(20,0,-2):
 
 for i in range(10,0,-1):
     print(i)    #numbers in reverse 
+
+
+for i in range(1,20):
+    if i%2!=0:
+        print(i)  #odd numbers from 1 to 20
