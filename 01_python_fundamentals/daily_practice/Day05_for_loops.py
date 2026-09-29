@@ -44,3 +44,11 @@ for i in range (1,11):
 for i in range(1,11):
     if i%2==0:
         print(i*i) #squares of first 10 even numbers
+
+
+for i in range(20,0,-2):
+    print(i)       
+
+
+for i in range(10,0,-1):
+    print(i)    #numbers in reverse 
