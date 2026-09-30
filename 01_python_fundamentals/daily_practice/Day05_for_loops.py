@@ -80,3 +80,12 @@ word = input("Enter your word: ")
 for i in word :
     if i.lower() in "aeiou":
         print(i)  #optimised version
+
+
+word = input("Enter your word: ")
+count = 0
+for i in word :
+    if i.lower() in "aeiou":
+        count = count + 1
+
+print(count)  #printing the count of vowels
