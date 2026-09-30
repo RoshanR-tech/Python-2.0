@@ -87,5 +87,9 @@ count = 0
 for i in word :
     if i.lower() in "aeiou":
         count = count + 1
-
 print(count)  #printing the count of vowels
+
+
+word = "python"
+for index , char in enumerate(word):
+    print(index,char) #enumerate function to get index and character
