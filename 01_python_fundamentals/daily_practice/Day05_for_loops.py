@@ -93,3 +93,9 @@ print(count)  #printing the count of vowels
 word = "python"
 for index , char in enumerate(word):
     print(index,char) #enumerate function to get index and character
+
+
+for i in range (1,6):
+    for j in range(1 , i+1):
+        print(j,end=" ")
+    print()    #pattern printing
