@@ -30,3 +30,16 @@ if is_adult:
     print("You can watch the movie")
 else:
     print("You cannot watch the movie") #use of boolean data type 
+
+
+marks = int(input("Enter your marks: "))
+if marks < 0 or marks > 100 :
+    print("Invalid")
+elif 0 <= marks < 40 :
+    print("fail")
+elif 40 <= marks <60 :
+    print("C grade")
+elif 60 <= marks < 75 :
+    print("B grade")
+elif 75 <= marks <= 100 :
+    print("A grade")
