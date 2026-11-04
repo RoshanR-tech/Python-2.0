@@ -81,3 +81,10 @@ for i in range(1,6):
         val=(i*(i-1))//2+j+1
         print(val,end=" ")
     print()      #Floyd's Triangle (Consecutive Numbers):
+
+
+for i in range(1,6):
+    for j in range(i):
+        letter = chr(65+j)
+        print(letter,end=" ")
+    print()      #Alphabet pattern 
