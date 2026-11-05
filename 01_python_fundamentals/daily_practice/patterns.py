@@ -83,6 +83,15 @@ for i in range(1,6):
     print()      #Floyd's Triangle (Consecutive Numbers):
 
 
+for i in range(1,5):
+    for j in range(i):
+        letter = chr(65+j)
+        val = 65 + (i*(i - 1))//2+j
+        print(chr(val),end=" ")
+        
+    print()         #Floyd's Triangle (Consecutive letters):
+
+
 for i in range(1,6):
     for j in range(i):
         letter = chr(65+j)
