@@ -23,7 +23,7 @@ for i in range (10,0,-1):
     print(i, end=" ") #Reverse counting from 10 to 1 in a single line with space in between
 
 
-for i in range(2,21):
+for i in range(1,21):
     if i%2==0:
         print(i)   #Even numbers from 2 to 20 with loop
 
