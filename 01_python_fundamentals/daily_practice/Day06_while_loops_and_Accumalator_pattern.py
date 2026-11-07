@@ -10,3 +10,12 @@ while n >= 1 :
     n -= 1
      
 print("Blast off!!!")    #print number from 10-1(reverse orde)
+
+
+n = 1
+total = 0 
+while n<=10:
+    total+=n 
+    n+=1
+    
+print(total)  #Accumulator pattern 
