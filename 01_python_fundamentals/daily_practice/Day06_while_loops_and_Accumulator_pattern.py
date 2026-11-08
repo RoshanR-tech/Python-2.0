@@ -53,3 +53,15 @@ while n<=20:
     print(n)
     n+=1
 print("Loop completed!!")
+
+
+password = "maybeidk"
+while True :
+    pas = input("Enter your password: ")
+    if pas == password :
+        print("Login success.")
+        break 
+    
+    else :
+        print("Wrong password!!")    #password validation system 
+        
