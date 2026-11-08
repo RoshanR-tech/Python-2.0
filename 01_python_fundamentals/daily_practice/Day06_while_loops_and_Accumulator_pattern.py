@@ -65,3 +65,18 @@ while True :
     else :
         print("Wrong password!!")    #password validation system 
         
+
+se = 7 
+while True :
+    secret = int(input("enter your secret number: "))
+    if secret == se :
+        print("Congratulations! You guessed it.")
+        break 
+    
+        
+    else:
+        if secret < 7:
+            print("Too low.")
+        if secret > 7 :
+            print("Too high.")
+        print("Wrong guess! Try again.")
