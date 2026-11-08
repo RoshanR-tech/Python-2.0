@@ -41,3 +41,14 @@ while n<=15:
         break 
     print(n)
     n+=1    
+
+
+n=1
+while n<=20:
+    if n%3==0:
+        n+=1
+        continue
+    if n==17:
+        break
+    print(n)
+    n+=1
