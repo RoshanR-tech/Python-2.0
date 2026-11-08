@@ -29,3 +29,15 @@ while n<=10 :
         
     n+=1 
 print(total) #accumulate sum of even numbers from 1-10
+
+
+n = 1 
+while n<=15:
+    if n == 7:
+        n+=1
+        continue
+    
+    elif n==12:
+        break 
+    print(n)
+    n+=1    
