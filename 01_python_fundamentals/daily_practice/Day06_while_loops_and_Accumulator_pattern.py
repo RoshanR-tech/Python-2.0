@@ -52,3 +52,4 @@ while n<=20:
         break
     print(n)
     n+=1
+print("Loop completed!!")
