@@ -110,7 +110,10 @@ while True :
     elif op==4:
         a=int(input("enter a number: "))
         b=int(input("enter a number: "))
-        print(a/b)
+        if b==0 :
+            print("Cannot be divide by 0")
+        else:
+            print(a/b)
         
     elif op==5:
         print("Exit done.")
@@ -119,3 +122,12 @@ while True :
         
     else :
         print("invalid input. ")  #menu driven program 
+
+
+n = 1
+total = 0
+while n<=10:
+    total+=n
+    n+=1
+    
+print(total) #Accumulator pattern 
