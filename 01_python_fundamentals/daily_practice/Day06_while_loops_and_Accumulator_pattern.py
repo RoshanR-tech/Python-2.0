@@ -131,3 +131,15 @@ while n<=10:
     n+=1
     
 print(total) #Accumulator pattern 
+
+
+total = 0 
+count = 0 
+while count<5:
+    n = int(input("Enter a number: "))
+    total += n
+    count += 1 
+    
+print("total=",total)
+avg = (total/count)
+print(f"Average = {avg:.2f}")  #counter + accumulators
