@@ -89,8 +89,7 @@ while True :
     print("3.multiplication.")
     print("4.Division.")
     print("5.exit")
-    
-    
+        
     op = int(input("Select an option: "))
     
     if op==1 :
