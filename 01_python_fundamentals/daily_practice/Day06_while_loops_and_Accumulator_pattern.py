@@ -80,3 +80,42 @@ while True :
         if secret > 7 :
             print("Too high.")
         print("Wrong guess! Try again.")
+
+
+while True :
+    print("-----Menu-----")
+    print("1.Addition.")
+    print("2.Subtraction.")
+    print("3.multiplication.")
+    print("4.Division.")
+    print("5.exit")
+    
+    
+    op = int(input("Select an option: "))
+    
+    if op==1 :
+        a=int(input("enter a number: "))
+        b=int(input("enter a number: "))
+        print(a+b)
+        
+    elif op==2:
+        a=int(input("enter a number: "))
+        b=int(input("enter a number: "))
+        print(a-b)
+        
+    elif op==3:
+        a=int(input("enter a number: "))
+        b=int(input("enter a number: "))
+        print(a*b)
+        
+    elif op==4:
+        a=int(input("enter a number: "))
+        b=int(input("enter a number: "))
+        print(a//b)
+        
+    elif op==5:
+        break
+        
+print("Exit done")    #menu driven program for basic arithmetic operations using while loop
+    
+    
