@@ -89,7 +89,7 @@ while True :
     print("3.multiplication.")
     print("4.Division.")
     print("5.exit")
-        
+    
     op = int(input("Select an option: "))
     
     if op==1 :
@@ -110,11 +110,12 @@ while True :
     elif op==4:
         a=int(input("enter a number: "))
         b=int(input("enter a number: "))
-        print(a/b)
+        print(a//b)
         
     elif op==5:
+        print("Exit done.")
         break
+    
         
-print("Exit done")    #menu driven program for basic arithmetic operations using while loop
-    
-    
+    else :
+        print("invalid input. ")  #menu driven program 
