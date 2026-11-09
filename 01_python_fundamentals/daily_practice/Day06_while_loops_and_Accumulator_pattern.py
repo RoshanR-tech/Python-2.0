@@ -110,7 +110,7 @@ while True :
     elif op==4:
         a=int(input("enter a number: "))
         b=int(input("enter a number: "))
-        print(a//b)
+        print(a/b)
         
     elif op==5:
         print("Exit done.")
