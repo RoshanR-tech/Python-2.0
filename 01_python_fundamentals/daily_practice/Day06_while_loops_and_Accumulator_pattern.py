@@ -143,3 +143,16 @@ while count<5:
 print("total=",total)
 avg = (total/count)
 print(f"Average = {avg:.2f}")  #counter + accumulators
+
+
+total = 0
+count = 0 
+while count < 5:
+    n = int(input("Enter a number: "))
+    if n%2==0:
+        total+=n
+    count+=1
+    
+print("Total = ",total)
+avg = (total/count)
+print(f"Average = {avg:.2f}")   #counter + accumulators for even numbers
