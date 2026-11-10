@@ -161,3 +161,24 @@ if even_count > 0 :
     print(avg)
 else :
     print("No even numbers")   #counter and accumulator for even numbers only
+
+
+total = 0 
+positive_num = 0
+negative_num = 0
+zeros = 0
+count = 0 
+while count < 10 :
+    n = int(input("Enter your number: "))
+    if n > 0 :
+        total+=n
+        positive_num+=1
+    elif n < 0 :
+        negative_num+=1
+    elif n == 0 :
+        zeros+=1
+    count+=1
+print("sum of positive numbers is ",total)
+print("total positive numbers: ",positive_num)
+print("total negative numbers: ",negative_num)
+print("total number of zeros: ",zeros)        #Positive, Negative and Zero Counter
