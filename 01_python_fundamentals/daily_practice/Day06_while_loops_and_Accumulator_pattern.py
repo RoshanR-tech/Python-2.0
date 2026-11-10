@@ -145,23 +145,19 @@ avg = (total/count)
 print(f"Average = {avg:.2f}")  #counter + accumulators
 
 
-total = 0
-count = 0
-even_count = 0
-
-while count < 5:
-    n = int(input("Enter a number: "))
-
-    if n % 2 == 0:
-        total += n
-        even_count += 1
-
-    count += 1
-
-print("Sum of even numbers:", total)
-
-if even_count > 0:
-    avg = total / even_count
-    print(f"Average of even numbers: {avg:.2f}")
-else:
-    print("No even numbers entered.")  #counter + accumulators for even numbers
+total = 0 
+count = 0 
+even_count = 0 
+while count < 5 :
+    n = int(input("Enter your number: "))
+    if n%2==0 :
+        total+=n 
+        even_count+=1
+        
+    count+=1
+print(f"Total is {total}")
+if even_count > 0 :
+    avg = (total/even_count)
+    print(avg)
+else :
+    print("No even numbers")   #counter and accumulator for even numbers only
