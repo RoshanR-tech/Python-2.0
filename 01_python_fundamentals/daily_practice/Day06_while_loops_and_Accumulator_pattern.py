@@ -182,3 +182,24 @@ print("sum of positive numbers is ",total)
 print("total positive numbers: ",positive_num)
 print("total negative numbers: ",negative_num)
 print("total number of zeros: ",zeros)        #Positive, Negative and Zero Counter
+
+
+big = None 
+second_big = None
+count = 0
+while count < 10 :
+    n = int(input("Enter a number: "))
+    if count == 0:
+        big = n 
+        second_big = n 
+    elif n > big :
+        second_big = big
+        big = n 
+    elif n!=big and (n > second_big) :
+        second_big = n 
+    count+=1
+print(big)        
+if second_big != None :
+    print(second_big)
+else :
+    print("There is no second_biggest")            #second biggest 
