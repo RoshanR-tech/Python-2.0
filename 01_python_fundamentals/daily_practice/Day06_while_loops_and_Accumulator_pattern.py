@@ -222,3 +222,35 @@ if second_small != None :
     print(second_small)
 else :
     print("There is no second smaller number")     #second smallest number from 10 numbers
+
+
+total = 0 
+passed = 0 
+fail = 0 
+count = 0 
+big = None 
+small = None 
+while count < 10 :
+    n = int(input("Enter your marks : "))
+    if n>35 :
+        passed+=1 
+    elif n < 35 :
+        fail +=1
+    total+=n 
+
+
+    if count == 0 :
+        big = n
+        small = n 
+    elif n > big :
+        big = n 
+    elif n < small :
+        small = n 
+    count+=1
+print("Total marks: ",total)
+avg = (total/count)
+print("the average is : ",avg)
+print("Total number of students who passed: ",passed)
+print("Total number of students who failed: ",fail)
+print("highest marks: ",big)
+print("lowest marks: ",small)             #student marks analysis program
