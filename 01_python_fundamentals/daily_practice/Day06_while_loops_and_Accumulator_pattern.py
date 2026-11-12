@@ -185,21 +185,40 @@ print("total number of zeros: ",zeros)        #Positive, Negative and Zero Count
 
 
 big = None 
-second_big = None
-count = 0
+second_big = None 
+count = 0 
 while count < 10 :
     n = int(input("Enter a number: "))
-    if count == 0:
+    if count == 0 :
         big = n 
-        second_big = n 
     elif n > big :
         second_big = big
         big = n 
-    elif n!=big and (n > second_big) :
+    elif n!= big and (second_big is None or n < second_big):
         second_big = n 
     count+=1
-print(big)        
+print(big)
 if second_big != None :
     print(second_big)
 else :
-    print("There is no second_biggest")            #second biggest 
+    print("There is no second largest number")         #second largest number from 10 numbers
+
+
+small = None 
+second_small = None 
+count = 0 
+while count < 10 :
+    n = int(input("Enter a number: "))
+    if count == 0 :
+        small = n 
+    elif n < small :
+        second_small = small 
+        small = n 
+    elif n!= small and (second_small is None or n < second_small):
+        second_small = n 
+    count+=1
+print(small)
+if second_small != None :
+    print(second_small)
+else :
+    print("There is no second smaller number")     #second smallest number from 10 numbers
