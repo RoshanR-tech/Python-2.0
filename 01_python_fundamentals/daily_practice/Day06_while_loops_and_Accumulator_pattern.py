@@ -254,3 +254,23 @@ print("Total number of students who passed: ",passed)
 print("Total number of students who failed: ",fail)
 print("highest marks: ",big)
 print("lowest marks: ",small)             #student marks analysis program
+
+
+count = 0
+es = 0 
+os = 0 
+en = 0
+on = 0 
+while count < 10 :
+    n = int(input("Enter a number : "))
+    if n%2==0 :
+        es+=n
+        en+=1
+    else :
+        os+=n
+        on+=1
+    count+=1
+print("Even sum: ",es)
+print("Odd sum : ",os)
+print("Even numbers :" ,en)
+print("Odd numbers :" ,on)      #sum and count of even and odd numbers from 10 numbers
