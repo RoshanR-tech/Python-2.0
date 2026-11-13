@@ -274,3 +274,36 @@ print("Even sum: ",es)
 print("Odd sum : ",os)
 print("Even numbers :" ,en)
 print("Odd numbers :" ,on)      #sum and count of even and odd numbers from 10 numbers
+
+
+count = 0 
+total = 1 
+while count < 5 :
+    n = int(input("Enter your number : "))
+    total *= n 
+    count+=1                                             #product of 5 numbers,
+print("The product of these numbers are : ",total)       #total starts with 1 because multiplication identity is 1, if we start with 0 then the product will always be 0 
+
+
+count = 0 
+pnc = 0 
+nnc = 0 
+zc = 0 
+spn = 0 
+snn = 0
+while count < 15 :
+    n = int(input("Enter a number: "))
+    if n > 0 :
+        spn+=n
+        pnc += 1
+    elif n < 0 :
+        snn += n 
+        nnc += 1 
+    elif n == 0 :
+        zc+=1
+    count+=1 
+print("Positive number count: ",pnc)
+print("Negative number count: ",nnc)
+print("Zeros count:",zc)
+print("sum of Positive numbers: ",spn)
+print("sum of Negative numbers:",snn)      #number analysis program for 15 numbers, count and sum of positive, negative and zeros
