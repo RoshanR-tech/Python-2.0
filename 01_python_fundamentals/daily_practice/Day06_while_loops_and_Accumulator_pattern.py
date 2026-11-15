@@ -307,3 +307,26 @@ print("Negative number count: ",nnc)
 print("Zeros count:",zc)
 print("sum of Positive numbers: ",spn)
 print("sum of Negative numbers:",snn)      #number analysis program for 15 numbers, count and sum of positive, negative and zeros
+
+
+b = None
+sb = None
+count = 0
+
+while count < 10:
+    n = int(input("Enter your number: "))
+
+    if b is None:
+        b = n
+
+    elif n > b:
+        sb = b
+        b = n
+
+    elif n != b and (sb is None or n > sb):
+        sb = n
+
+    count += 1
+
+print("Largest number:", b)
+print("Second largest number:", sb)   #Optimised code for second biggest 
