@@ -330,3 +330,26 @@ while count < 10:
 
 print("Largest number:", b)
 print("Second largest number:", sb)   #Optimised code for second biggest 
+
+
+s = None
+ss = None
+count = 0
+
+while count < 10:
+    n = int(input("Enter a number: "))
+
+    if s is None:
+        s = n
+
+    elif n < s:
+        ss = s
+        s = n
+
+    elif n != s and (ss is None or n < ss):
+        ss = n
+
+    count += 1
+
+print("Smallest:", s)
+print("Second smallest:", ss) #Optimised code for second smallest 
