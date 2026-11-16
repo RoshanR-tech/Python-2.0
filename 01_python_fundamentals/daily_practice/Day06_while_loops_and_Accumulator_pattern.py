@@ -9,11 +9,11 @@ while n >= 1 :
     print(n)
     n -= 1
      
-print("Blast off!!!")    #print number from 10-1(reverse orde)
+print("lauch off!!!")    #print number from 10-1(reverse orde)
 
 
 n = 1
-total = 0 
+total = 10 
 while n<=10:
     total+=n 
     n+=1
