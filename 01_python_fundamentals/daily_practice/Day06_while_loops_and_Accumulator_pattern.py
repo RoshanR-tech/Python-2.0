@@ -354,3 +354,32 @@ while count < 10:
 print("Smallest:", s)
 print("Second smallest:", ss) #Optimised code for second smallest 
 
+
+ht = 0 
+lt = 0 
+big = None 
+small = None 
+count = 0 
+total = 0
+while count < 7 :
+    n = int(input("Enter the temperature: "))
+    if n > 30 :
+        ht +=1 
+    elif n < 20 :
+        lt +=1
+    total+=n    
+    count+=1
+    
+    
+    if big == None :
+        big = n 
+    elif n > big :
+        big = n 
+    elif n!=big and (small==None or n < small):
+        small = n 
+avg = total/count
+print(f"The avg temp = {avg:.2f}")
+print("highest temp: ",big)
+print("lowest temp: ",small)
+print("days with temp above 30: ",ht)
+print("days with temp below 20: ",lt)    #Temperature analyser 
