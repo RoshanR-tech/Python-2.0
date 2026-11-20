@@ -354,35 +354,3 @@ while count < 10:
 print("Smallest:", s)
 print("Second smallest:", ss) #Optimised code for second smallest 
 
-
-marks = 0 
-passed = 0 
-fail = 0 
-count = 0 
-big = None
-small = None
-total = 0
-while count < 10 :
-    n =int(input("Enter your marks: "))
-    if n >= 35 :
-        passed+=1
-    else :
-        fail +=1 
-    total+=n 
-    count+=1
-    
-    if big == None :
-        big = n 
-    elif n > big :
-        big = n 
-    elif n!=big and (small == None or n < small):
-        small = n 
-        
-
-avg = (total/count)
-print(passed)
-print(fail)
-print(total)
-print(big)
-print(small)
-print(avg)   #student marks analyser 
