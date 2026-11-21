@@ -383,3 +383,15 @@ print("highest temp: ",big)
 print("lowest temp: ",small)
 print("days with temp above 30: ",ht)
 print("days with temp below 20: ",lt)    #Temperature analyser 
+
+
+bal = 10000
+total = 0
+count = 0
+while count < 5 :
+    n = int(input("enter your amount : "))
+     
+    total+=n
+    
+    count+=1
+print(bal+total)  #bank balance checker 
