@@ -393,3 +393,46 @@ while count < 5 :
     total+=n 
     count+=1
 print(bal+total) #bank balance checker 
+
+
+student_count = 0
+passed = 0
+failed = 0
+big = None
+small = None
+class_total = 0
+while student_count < 5:
+    subject_count = 0
+    student_total = 0
+    student_passed = True
+    print("Student", student_count + 1)
+    while subject_count < 3:
+        n = int(input("Enter your marks: "))
+        student_total += n
+        class_total += n
+        if n < 35:
+            student_passed = False
+        if big is None:
+            big = n
+        elif n > big:
+            big = n
+        if small is None:
+            small = n
+        elif n < small:
+            small = n
+        subject_count += 1
+    avg = student_total / subject_count
+    print("Total:", student_total)
+    print("Average:", avg)
+    if student_passed:
+        passed += 1
+    else:
+        failed += 1
+    student_count += 1
+print("Students:", student_count)
+print("Passed:", passed)
+print("Failed:", failed)
+print("Highest mark:", big)
+print("Lowest mark:", small)
+print("Class total:", class_total)
+print("Class average:", class_total / 15)     #day 6 final challenge 
